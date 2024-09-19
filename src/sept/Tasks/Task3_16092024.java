@@ -17,17 +17,17 @@ public class Task3_16092024 {
             System.out.println("x and y are not equal\n");
 
 /*
-       Answer 2:  byte b = 10; long l = 10l; → How much Byte will be used.
-
+       byte b = 10; long l = 10l; → How much Byte will be used.
+Answer :
         b = 1 byte
-        long = 8 8 bytes , so total 8+1 = 9 bytes
+        long = 8 bytes , so total 8+1 = 9 bytes
 
         String s = "name" //8 bytes
 
-       Another byte b = 10; byte c = 10;  What is the anwser if the perform b+c,
+       Another =byte b  10; byte c = 10;  What is the answer if to perform b+c,
        What is the data type it will give in result.
 
-       By default it leads to int  i.e greater version of byte
+       By default, it leads to int  i.e. greater version of byte
                 */
 
 
@@ -36,12 +36,15 @@ public class Task3_16092024 {
         System.out.println(b+c);
 
 
-        // if you print character then it prints character, but if you print concatenation of the characters, it
+        //Answer 3: if you print character then it prints character, but if you print concatenation of the characters, it
         //will take ASCII value
-        char c1='A';
-        System.out.println(c1);
-        char d1 = 'B';
-        int e1 = c1+d1;
-        System.out.println(e1);
+
+        short s = 10;
+
+        char g = 'A'; //65
+
+        int ss = s+g;
+
+        System.out.println(ss);
     }
 }
