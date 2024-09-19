@@ -1,6 +1,6 @@
 package sept.Tasks;
 
-public class Task1_10table16092024 {
+public class Task1_10table13092024 {
     public static void main(String[] args) {
         int num = 10;
         System.out.printf("%d * 1 = %d \n", num,num*1);
