@@ -3,17 +3,21 @@ package sept.Tasks;
 public class Task3_16092024 {
     public static void main(String[] args) {
      /*
-        Difference between = and  ==?
+        Answer 1: Difference between = and  ==?
 
         = is an assignment operator, assignment operators in programming are symbols used to assign values to variables. eg: int a=10;
-        == is used to compare the values if both are equal or not.
+        == it is a relational operator and is used to compare the values if both are equal or not.
        */
 
-        int a1= 10;
-        boolean b1 = (10==11);
+        int x = 10;
+        int y = 11;
+        if (x == y)
+            System.out.println("x is equal to b\n");
+        else
+            System.out.println("x and y are not equal\n");
 
 /*
-        byte b = 10; long l = 10l; → How much Byte will be used.
+       Answer 2:  byte b = 10; long l = 10l; → How much Byte will be used.
 
         b = 1 byte
         long = 8 8 bytes , so total 8+1 = 9 bytes
@@ -32,7 +36,7 @@ public class Task3_16092024 {
         System.out.println(b+c);
 
 
-        // if you print character then it prints charcter, but if you print concatination of the charcters, it
+        // if you print character then it prints character, but if you print concatenation of the characters, it
         //will take ASCII value
         char c1='A';
         System.out.println(c1);
