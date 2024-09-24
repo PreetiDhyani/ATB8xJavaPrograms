@@ -6,7 +6,7 @@ public class Lab004_char {
         System.out.println(c);
         char c1 = '$';
         System.out.println(c1);
-        char c2 = '\n';
+        char c2 = '\n'; //Escape character-gives you newline
         System.out.println(c2);
         char c3 = '\u1F6A'; //UNICODE CHARACTER
         System.out.println(c3);
