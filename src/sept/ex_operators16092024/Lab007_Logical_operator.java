@@ -20,8 +20,7 @@ public class Lab007_Logical_operator {
         //System.out.println(c);
 
         //New operator
-        char[] original;
-        String s1 = new String( original: "Preeti")
+
 
         // instance of operator
 
