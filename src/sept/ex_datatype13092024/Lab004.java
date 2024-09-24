@@ -34,6 +34,9 @@ public class Lab004  {
         char tab_line = '\t';
     char back_space = '\b';
         char car_r = '\r';
-
+        System.out.println("Preeti" + new_line + "Dhyani");
+        System.out.println("Preeti" + tab_line + "Dhyani");
+        System.out.println("Preeti" + back_space + "Dhyani");
+        System.out.println("Preeti" + car_r + "Dhyani");
     }
 }
