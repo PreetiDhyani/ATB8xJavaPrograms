@@ -9,10 +9,10 @@ public class Lab004  {
     int age = 78;
 
     //Binary literal
-    int binary_num = ob1010;
+    int binary_num = 1010;
 
     // Octal Base
-    int octal = 0101;// 0101 = (0x a3) + (0 x a2) + (0xa0) = 65
+    int octal = 0101; // 0101 = (0x a3) + (0 x a2) + (0xa0) = 65
 
     // Hexadecimal Literals
 
@@ -33,7 +33,7 @@ public class Lab004  {
     char new_line = '\n';
         char tab_line = '\t';
     char back_space = '\b';
-        char car_r = '\r;
+        char car_r = '\r';
 
     }
 }
