@@ -8,6 +8,10 @@ public class Lab004_concatenation {
         // Concatenation operator>> +
         // = >> in case of int +int = addition _math
         // In case of string it combines
+        int a = 10;
+        int b = 10;
+        System.out.println(first_name + last_name + a + b); // concatenation done first
+        System.out.println(a + b +first_name + last_name);// arithmetic done first
 
     }
 }
