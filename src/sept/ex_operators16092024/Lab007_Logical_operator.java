@@ -6,12 +6,24 @@ public class Lab007_Logical_operator {
         // 1, &&, //
         boolean a = true;
         boolean b = false;
-        //boolean c = a && b; // in AND gate both of operands should be true for answer to be true
+        // AND Operator : in AND gate both of operands should be true for answer to be true
+        //boolean c = a && b;
         //System.out.println(c);
-        //boolean c = a || b; // in OR gate ONE of the operands should be true for answer to be true
+
+        // OR Gate in OR gate ONE of the operands should be true for answer to be true
+        //boolean c = a || b;
         //System.out.println(c);
-        boolean c = !b;
-        System.out.println(c);
+
+        // NOR Gate inverted the result
+
+        //boolean c = !b;
+        //System.out.println(c);
+
+        //New operator
+        char[] original;
+        String s1 = new String( original: "Preeti")
+
+        // instance of operator
 
     }
 }
